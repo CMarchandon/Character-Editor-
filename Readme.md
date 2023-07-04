@@ -27,11 +27,11 @@ Once the application is up and running, you can perform the following actions:
 - Delete a character from the list by selecting the corresponding delete button.
 
 ## Contributors
-- [Your Name](https://github.com/your-username)
+- [Camille Marchandon](https://github.com/CMarchandon)
 - [Tim Charlier](https://github.com/timcharlier6)
 - [Cédric Wiekin](https://github.com/cedricwiekin)
 - [Nathan Lombardelli](https://github.com/NathanLombardelli)
 
 ## Deployment
-The project is deployed and accessible on GitHub Pages. You can visit the deployed application by clicking [here](https://your-username.github.io/project).
+The project is deployed and accessible on GitHub Pages. You can visit the deployed application by clicking [here]([https://your-username.github.io/project](https://cmarchandon.github.io/Character-Editor-/)https://cmarchandon.github.io/Character-Editor-/).
 
