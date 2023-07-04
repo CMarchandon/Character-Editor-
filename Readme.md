@@ -1,13 +1,13 @@
 # Project Character_manager
 
 ## Introduction
-This project is a web development project that I have worked on with Tim Charlier (https://github.com/timcharlier6) and Cédric Wiektin (https://github.com/cedricwietkin). 
+This project is a web development project that I have worked on with Tim Charlier and Cédric Wiektin. 
 
 The original project was a group effort, but I have updated it to better suit my preferences and requirements. 
 
 The project was undertaken as part of my training at becode.org. 
 
-I would also like to acknowledge the contributions of Nathan Lombardelli (https://github.com/NathanLombardelli), who provided guidance and assistance in debugging.
+I would also like to acknowledge the contributions of Nathan Lombardelli, who provided guidance and assistance in debugging.
 
 ## Project Overview
 The aim of this project is to learn how to contact a member of becode.org and manage a list of characters. The web application allows users to perform various actions related to managing and organizing a list of characters, such as adding new characters, editing existing ones, and deleting them.
@@ -27,11 +27,10 @@ Once the application is up and running, you can perform the following actions:
 - Delete a character from the list by selecting the corresponding delete button.
 
 ## Contributors
-- [Your Name](https://github.com/your-username)
+- [Camille Marchandon](https://github.com/CMarchandon)
 - [Tim Charlier](https://github.com/timcharlier6)
 - [Cédric Wiekin](https://github.com/cedricwiekin)
 - [Nathan Lombardelli](https://github.com/NathanLombardelli)
 
 ## Deployment
-The project is deployed and accessible on GitHub Pages. You can visit the deployed application by clicking [here](https://your-username.github.io/project).
-
+The project is deployed and accessible on GitHub Pages. You can visit the deployed application by clicking [here](https://cmarchandon.github.io/Character-Editor-/)
