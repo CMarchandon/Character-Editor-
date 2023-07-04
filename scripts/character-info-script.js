@@ -7,6 +7,7 @@ function createCard(cardData) {
           <img src="data:image/png;base64, ${cardData['image']}"> 
       </div>
       <h1 class="name">${cardData["name"]}</h1>
+      <p class="shortDecription"> <b>${cardData["shortDescription"]}</b></p>
       <p id="#description">${cardData["description"]}</p>
       <button class="editButton">Edit</button>
       <button class="deleteButton">Delete</button>
