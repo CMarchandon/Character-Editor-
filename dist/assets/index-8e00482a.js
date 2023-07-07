@@ -1,0 +1,7 @@
+(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const t of document.querySelectorAll('link[rel="modulepreload"]'))i(t);new MutationObserver(t=>{for(const o of t)if(o.type==="childList")for(const n of o.addedNodes)n.tagName==="LINK"&&n.rel==="modulepreload"&&i(n)}).observe(document,{childList:!0,subtree:!0});function c(t){const o={};return t.integrity&&(o.integrity=t.integrity),t.referrerPolicy&&(o.referrerPolicy=t.referrerPolicy),t.crossOrigin==="use-credentials"?o.credentials="include":t.crossOrigin==="anonymous"?o.credentials="omit":o.credentials="same-origin",o}function i(t){if(t.ep)return;t.ep=!0;const o=c(t);fetch(t.href,o)}})();const s=document.querySelector(".cardContainer"),a=document.querySelector(".createCharacter");a.addEventListener("click",()=>{window.location.href="../character-create.html"});function d(e){const r=document.createElement("div");r.classList.add("card"),r.innerHTML=`
+    <div class="imgContainer">
+      <img src="data:image/png;base64, ${e.image}">
+    </div>
+    <h1 class="name">${e.name}</h1>
+    <p class="shortDecription">${e.shortDescription}</p>
+    <button class="cardButton">See more</button>`;const c=r.querySelector(".cardButton");return l(c,e),s.appendChild(r),r}function l(e,r){e.addEventListener("click",()=>{u(r)})}function u(e){window.location.href=`../character-info.html?id=${e.id}`}function f(){fetch("https://character-database.becode.xyz/characters").then(e=>e.json()).then(e=>{e.forEach(r=>{d(r)})}).catch(e=>{console.log(e)})}f();

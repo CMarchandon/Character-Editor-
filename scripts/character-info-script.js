@@ -20,7 +20,7 @@ function createCard(cardData) {
     // Add click event listener to editButton
     editButton.addEventListener("click", () => {
       // Redirect the user to the details page by passing the ID in the URL parameters
-      window.location.href = `character-editor.html?id=${cardData["id"]}`;
+      window.location.href = `../character-editor.html?id=${cardData["id"]}`;
     });
   
     // Add click event listener to deleteButton for deleting the character
@@ -39,7 +39,7 @@ function createCard(cardData) {
               alert("You killed him :'(");
   
               // Redirect to index.html
-              window.location.href = "index.html";
+              window.location.href = "../index.html";
             } else {
               // Handle the error case
               alert("Failed to delete character.");

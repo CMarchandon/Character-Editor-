@@ -135,6 +135,7 @@ body .cardInfoCharacter {
   text-align: center;
   padding: 25px;
   box-shadow: 5px 10px 5px rgb(212, 212, 212);
+  overflow: hidden;
 }
 body .deleteButton {
   background-color: rgb(239, 164, 154);

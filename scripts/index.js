@@ -4,7 +4,7 @@ const cardContainer = document.querySelector(".cardContainer");
 const createCharacterButton = document.querySelector(".createCharacter");
 createCharacterButton.addEventListener("click", () => {
   // Redirect the user to the details page, passing the ID as a parameter in the URL
-  window.location.href = `character-create.html`;
+  window.location.href = `../character-create.html`;
 });
 
 // Function to create card elements
@@ -43,7 +43,7 @@ function setupCardButtonClickEvent(cardButton, cardData) {
 // Function to handle the button click event
 function handleCardButtonClick(cardData) {
   // Redirect the user to the details page, passing the ID as a parameter in the URL
-  window.location.href = `character-info.html?id=${cardData["id"]}`;
+  window.location.href = `../character-info.html?id=${cardData["id"]}`;
 }
 
 // Function to fetch card data and display it

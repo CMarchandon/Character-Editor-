@@ -39,7 +39,7 @@ function displayCardWithData() {
         // Display success message
         alert("Character created");
         // Redirect to index.html
-        window.location.href = "index.html";
+        window.location.href = "../index.html";
       } else {
         // Handle the error case
         throw new Error("Failed to create character.");
