@@ -1,8 +1,8 @@
 // Function to convert image to base64
-document.getElementById("image").addEventListener("change", readFile);
+document.getElementById("image").addEventListener("change", convertImageToBase64);
 let image64 = null;
 
-function readFile() {
+function convertImageToBase64() {
   if (!this.files || !this.files[0]) return;
   const FR = new FileReader();
   FR.addEventListener("load", function(evt) {
@@ -23,8 +23,8 @@ function fetchOriginalCharacterData(characterId) {
     });
 }
 
-// Function to populate the form with default values
-function populateFormWithCharacterData(characterData) {
+// Function to put the form with default values
+function putFormWithCharacterData(characterData) {
   document.querySelector("#name").value = characterData.name;
   document.querySelector("#shortDesc").value = characterData.shortDescription;
   document.querySelector("#description").value = characterData.description;
@@ -82,8 +82,8 @@ const characterId = urlParams.get('id');
 // Call the fetchOriginalCharacterData function to get the original character details
 fetchOriginalCharacterData(characterId)
   .then(characterData => {
-    // Populate the form with the default values from the original character
-    populateFormWithCharacterData(characterData);
+    // put the form with the default values from the original character
+    putFormWithCharacterData(characterData);
   })
   .catch(error => {
     console.log(error);

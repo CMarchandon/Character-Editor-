@@ -9,6 +9,8 @@ The project was undertaken as part of my training at becode.org.
 
 I would also like to acknowledge the contributions of Nathan Lombardelli, who provided guidance and assistance in debugging.
 
+The code was originally commented in French, and then the comments were translated and reformulated by ChatGPT. Some comments were also entirely added by the AI.
+
 ## Project Overview
 The aim of this project is to learn how to contact an API of becode.org and manage a list of characters. The web application allows users to perform various actions related to managing and organizing a list of characters, such as adding new characters, editing existing ones, and deleting them.
 
@@ -18,6 +20,7 @@ The project utilizes the following technologies:
 - CSS/SCSS
 - JavaScript
 - API from becode [https://character-database.becode.xyz/]
+-ChatGPT (openAI)
 
 ## Usage
 Once the application is up and running, you can perform the following actions:
